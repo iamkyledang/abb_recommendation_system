@@ -6,11 +6,11 @@ A PyQt5 desktop application for visually designing industrial electrical circuit
 
 ### Main Interface
 
-![Main Interface](abb_01.png)
+![Main Interface](main_interface.png)
 
 ### Energy Summary & Statistics
 
-![Energy Summary](abb_02.png)
+![Energy Summary](energy_summary.png)
 
 ---
 
@@ -90,10 +90,3 @@ matplotlib>=3.4.0
 numpy>=1.20.0
 ```
 
-## Simulation Model
-
-- **Motors**: $P_{in} = P_{rated} \cdot LF \div \eta$
-- **Drives**: Affinity law — $P \propto n^3$
-- **Transformers**: No-load (iron) + load-squared (copper) losses
-- **Load profile**: Sinusoidal 24-hour curve centered at noon within configured operating hours
-- **Tariff**: $0.12/kWh | **Carbon intensity**: 0.40 kg CO₂/kWh (EU 2024 average)

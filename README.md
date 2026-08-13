@@ -2,6 +2,18 @@
 
 A PyQt5 desktop application for visually designing industrial electrical circuits using ABB's real product portfolio, simulating 24-hour energy consumption, and receiving AI-generated energy-saving recommendations.
 
+---
+
+### Main Interface
+
+![Main Interface](abb_01.png)
+
+### Energy Summary & Statistics
+
+![Energy Summary](abb_02.png)
+
+---
+
 ## Features
 
 - **Interactive Circuit Editor** — Drag-and-drop ABB devices onto a canvas and connect them with animated Bézier wires
